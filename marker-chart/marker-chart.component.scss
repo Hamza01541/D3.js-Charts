@@ -1,0 +1,78 @@
+.d3-chart {
+    width: 100%;
+    height: 300px;
+  }
+
+  .d3-chart .axis text {
+    fill: #000;
+  }
+
+  .window-bar { 
+    fill: #916EF9;
+  }
+
+  .axis.axis-y > g > line {
+      stroke: none;
+  }
+
+  .axis.axis-y > g > text {
+    font-size: 15px;
+}
+
+  .axis.axis-y > path {
+      stroke: none;
+  }
+
+  .bounding-box {
+    fill: rgba(0, 0, 0, 0.1);
+    stroke: rgba(0, 0, 0, 0.2);
+  }
+
+  ._minutes {
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+  text._minutes{
+    transform: translateX(0px) !important;
+  }
+  text._minutes:nth-child(6){
+    transform: translateX(100px) !important;
+  }
+  .pointerLine {
+    stroke: black !important;
+    stroke-width: 2 !important;
+  }
+
+  .bounding-box2 {
+    fill: rgba(0, 0, 0, 0.1);
+    stroke: rgba(0, 0, 0, 0.2);
+  }
+  
+  line{
+    stroke: rgba(0, 0, 0, 0.2); 
+  }
+  
+  .dark {
+      fill: rgb(224, 61, 61);
+  }
+
+  .light {
+    fill: rgb(82, 105, 240);
+  }
+  
+  .deep {
+    fill: rgb(36, 16, 82);
+  }
+
+  .rem {
+    fill: rgb(155, 78, 218);
+  }
+
+  .d3-chart svg:not(:root){
+    overflow: visible !important;
+    width: 350px !important;
+    @media screen and (max-width: 375px) {
+      width: 100% !important;
+    }
+  }
