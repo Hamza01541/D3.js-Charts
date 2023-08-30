@@ -5,7 +5,7 @@ There are also other charts that I have built in D3.js like verticle Bar-charts,
 
 ![D3+Pie+Charts](https://github.com/Hamza01541/D3.js-Charts/assets/49500814/ed6b1672-844c-4fcc-a04e-d6453df9c33c)
 
-**Other charts that I have created for a past project:**
+**Other D3.js charts that I have created for a past project:**
 ![Dashboard-Charts](https://github.com/Hamza01541/D3.js-Charts/assets/49500814/9f1e06df-aa17-4b35-8233-a9b5c96e8585)
 
 ![CBS_dashboard](https://github.com/Hamza01541/D3.js-Charts/assets/49500814/e03cab7a-ad32-48fa-a507-dfdaee7685d7)
